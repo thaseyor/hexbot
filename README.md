@@ -1,0 +1,2 @@
+# hexbot
+discord bot
