@@ -1,0 +1,42 @@
+{
+  "name": "hexbot",
+  "version": "1.0.0",
+  "description": "discord bot",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thaseyor/hexbot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thaseyor/hexbot/issues"
+  },
+  "homepage": "https://github.com/thaseyor/hexbot#readme",
+  "dependencies": {
+    "@discordjs/opus": "^0.5.3",
+    "discord.js": "^12.5.3",
+    "dotenv": "^10.0.0",
+    "ffmpeg-static": "^4.3.0",
+    "node-opus": "^0.3.3",
+    "opusscript": "^0.0.8",
+    "ytdl-core": "^4.8.2"
+  },
+  "prettier": {
+    "trailingComma": "none",
+    "tabWidth": 4,
+    "semi": false,
+    "singleQuote": true,
+    "useTabs": true
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
